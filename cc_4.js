@@ -41,3 +41,14 @@ while (stock > -1) {
     //Decrease stock by 1
     stock--;
 }
+
+//TASK 4: DO...WHILE LOOP - CUSTOMER SURVEY
+
+//Declare variable with initial value
+let responses = 0
+
+//Use do...while loop to collect responses
+do {
+    console.log(`Response Count: ${responses}`);
+    responses++;
+} while (responses <= 3);
