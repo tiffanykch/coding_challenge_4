@@ -115,7 +115,7 @@ console.log(`Price after Discount: $${applyDiscount(1000, 0.2)}`)
 
 //TASK 10: ARROW FUNCTIONS - LOYALTY POINTS
 
-//Assign conversion rate
+//Assign conversion rate (1 point for each $10 spent = 1/10 = 0/1)
 const conversionRate = 0.1
 
 //Declare function that calculates loyalty points earned using purchase amount
