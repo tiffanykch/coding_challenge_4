@@ -112,3 +112,14 @@ function applyDiscount(price, discountRate) {
 
 //Log function results to the console using template literal
 console.log(`Price after Discount: $${applyDiscount(1000, 0.2)}`)
+
+//TASK 10: ARROW FUNCTIONS - LOYALTY POINTS
+
+//Assign conversion rate
+const conversionRate = 0.1
+
+//Declare function that calculates loyalty points earned using purchase amount
+calculatePoints = (purchaseAmount) => purchaseAmount * conversionRate;
+
+//Log function results to the console using template literal
+console.log(`Loyalty Points Earned: ${calculatePoints(300)}`)
