@@ -77,6 +77,18 @@ let products = ["Taro", "Brown Sugar", "Lychee", "Mango"]
 //Use for...of loop to display each item
 for (let product of products) {
     
-    //Log each product name to the console
+    //Log each product name to the console using template literal
     console.log(`Product: ${product}`);
 };
+
+//TASK 7: FOREACH() METHOD - ORDER PROCESSING
+
+//Declara array containing three orders IDs
+orders = [9221, 4923, 6745]
+
+//Use forEach method to display each ID
+orders.forEach(order => {
+
+    //Log each order ID to the console using template literal
+    console.log(`Order ID: ${order}`)
+});
