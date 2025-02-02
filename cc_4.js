@@ -95,10 +95,20 @@ orders.forEach(order => {
 
 //TASK 8: FUNCTION DECLARATION - TAX CALCULATION
 
-//Create function that calculates tax using an amount and tax rate
+//Declare function that calculates tax using an amount and tax rate
 function calculateTax(amount, rate) {
     return amount * rate;
 }
 
-//Log function results to the console
+//Log function results to the console using template literal
 console.log(`Tax Amount: $${calculateTax(9000, 0.05)}`);
+
+//TASK 9: FUNCTION APPLICATIONS - DISCOUNT APPLICATION
+
+//Declare function that calculates discounted amount using price and discount percentage
+function applyDiscount(price, discountRate) {
+    return price * (1 - discountRate); //Substract discount rate from 1 to find discounted price
+}
+
+//Log function results to the console using template literal
+console.log(`Price after Discount: $${applyDiscount(1000, 0.2)}`)
