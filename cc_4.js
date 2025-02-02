@@ -10,3 +10,17 @@ if (purchaseAmount > 100) {
 
 //Log final amount to console using template literal
 console.log(`Final amount after discount: $${finalAmount}`)
+
+//TASK 2: FOR LOOP - SALES REPORT
+
+//Declare array containing five sales figures
+let sales = [200, 2100, 75, 90, 450]
+
+//Use for loop to access calculate total sales
+for (sale in sales) {
+    totalSales = 0;
+    totalSales += sale;   
+}
+
+//Log total sales value to the console
+console.log("Total Sales: $" + totalSales)
