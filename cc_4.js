@@ -92,3 +92,13 @@ orders.forEach(order => {
     //Log each order ID to the console using template literal
     console.log(`Order ID: ${order}`)
 });
+
+//TASK 8: FUNCTION DECLARATION - TAX CALCULATION
+
+//Create function that calculates tax using an amount and tax rate
+function calculateTax(amount, rate) {
+    return amount * rate;
+}
+
+//Log function results to the console
+console.log(`Tax Amount: $${calculateTax(9000, 0.05)}`);
