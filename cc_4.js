@@ -26,3 +26,18 @@ for (sale of sales) {
 
 //Log total sales value to the console
 console.log(`Total Sales: $${totalSales}`)
+
+//TASK 3: WHILE LOOP - INVENTORY DEPLETION
+
+//Declare variable with initial value
+let stock = 10
+
+//Use while loop to decrease value until 0
+while (stock > -1) {
+
+    //Log each decrement to the console
+    console.log(`Stock Count: ${stock}`);
+
+    //Decrease stock by 1
+    stock--;
+}
